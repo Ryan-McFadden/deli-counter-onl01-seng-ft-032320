@@ -9,3 +9,8 @@ def line(katz_deli)
     puts "The line is currently: #{pos.join(" ")}"
   end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli << name
+  puts ""
+end
