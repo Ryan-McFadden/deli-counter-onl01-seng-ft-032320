@@ -4,8 +4,6 @@ def line(katz_deli)
   else
     pos = []
     katz_deli.each do |name|
-      #{katz_deli.index(name)+1}
-      #{name}
       pos << "#{katz_deli.index(name)+1}. #{name}"
     end
     puts "The line is currently: #{pos.join(" ")}"
