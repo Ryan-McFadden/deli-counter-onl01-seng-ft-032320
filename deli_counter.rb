@@ -4,9 +4,7 @@ def line(katz_deli)
   else
    op = "The line is currently"
     katz_deli.each do |name|
-      
-   "#{name.index += 1}. #{name}"
-  end
-  
+      puts "#{name.index += 1}. #{name}"
+    end
   end
 end
